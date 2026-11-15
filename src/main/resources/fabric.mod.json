@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "randomdrops",
+  "version": "${version}",
+  "name": "Random Drops",
+  "description": "Every block you break drops a random item.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.randomdrops.RandomDrops"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
